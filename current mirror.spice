@@ -1,0 +1,30 @@
+* SPICE3 file created from mark01.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 a_n1_45# a_n34_30# Vdd Vdd pfet w=48 l=4
++  ad=288 pd=108 as=1008 ps=370
+M1001 a_n34_n43# a_n34_n43# a_n40_n25# Gnd nfet w=10 l=4
++  ad=68 pd=36 as=60 ps=32
+M1002 a_61_n35# a_n34_n43# a_51_n35# Gnd nfet w=20 l=4
++  ad=120 pd=52 as=240 ps=104
+M1003 a_89_45# a_61_n35# Vdd Vdd pfet w=48 l=4
++  ad=288 pd=108 as=0 ps=0
+M1004 a_61_n35# Vbais2 a_51_45# Vdd pfet w=48 l=4
++  ad=288 pd=108 as=288 ps=108
+M1005 a_n1_n35# a_n34_n43# a_n11_n35# Gnd nfet w=20 l=4
++  ad=120 pd=52 as=240 ps=104
+M1006 a_30_n35# a_n34_n43# a_20_n35# Gnd nfet w=20 l=4
++  ad=120 pd=52 as=240 ps=104
+M1007 a_30_77# Vbais2 Vdd Vdd pfet w=16 l=4
++  ad=96 pd=44 as=0 ps=0
+M1008 a_51_n35# a_n6_n66# a_51_n91# Gnd nfet w=20 l=4
++  ad=0 pd=0 as=120 ps=52
+M1009 a_n30_45# a_n34_30# Vdd Vdd pfet w=48 l=4
++  ad=336 pd=110 as=0 ps=0
+M1010 a_n11_n35# a_n6_n66# a_n11_n91# Gnd nfet w=20 l=4
++  ad=0 pd=0 as=120 ps=52
+M1011 a_20_n35# a_n6_n66# a_20_n91# Gnd nfet w=20 l=4
++  ad=0 pd=0 as=120 ps=52
+C0 GND Gnd 3.07fF 
+C1 Vdd Gnd 19.02fF

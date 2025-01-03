@@ -1,0 +1,13 @@
+* SPICE3 file created from cascode.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 a_n11_n65# Vin GND Gnd nfet w=10 l=2
++  ad=150 pd=72 as=75 ps=36
+M1001 a_n11_n15# a_n13_n21# Vdd Vdd pfet w=48 l=2
++  ad=672 pd=220 as=336 ps=110
+M1002 a_39_n15# Vbias2 a_n11_n15# Vdd pfet w=48 l=2
++  ad=336 pd=110 as=0 ps=0
+M1003 a_39_n15# Vbias3 a_n11_n65# Gnd nfet w=10 l=2
++  ad=75 pd=36 as=0 ps=0
+C0 Vdd Gnd 8.62fF
